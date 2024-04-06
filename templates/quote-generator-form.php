@@ -66,7 +66,7 @@ $current_year = date("Y");
         <div class="col-md-4">
             <select id="team_dropdown" class="form-select" style="margin-bottom:20px;">
                 <option value="" selected>Select your Name to Autofill Information</option>
-                <optgroup label="Management">
+                <optgroup label="Management Team">
                     <option value="daniel">Daniel</option>
                     <option value="alex">Alex</option>
                 </optgroup>
@@ -81,6 +81,7 @@ $current_year = date("Y");
                     <option value="josh">Josh</option>
                     <option value="noey">Noey</option>
                     <option value="tod">Toddy</option>
+                    <option value="winner">Winner</option>
                 </optgroup>
                 <optgroup label="SEM Team">
                     <option value="golf">Golf</option>

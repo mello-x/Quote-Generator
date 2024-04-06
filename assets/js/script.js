@@ -790,6 +790,11 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
             "company_email": "@tbs-marketing.com",
             "full_name": ""
         },
+        "winner": {
+            "company_phone": "",
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
+        },
         "golf": {
             "company_phone": "",
             "company_email": "@tbs-marketing.com",
