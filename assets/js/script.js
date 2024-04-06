@@ -746,84 +746,84 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
             "full_name": "Daniel Parsons"
         },
         "alex": {
-            "company_phone": "0936535154",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Assawin Chittanandha (Mello)"
+            "company_phone": "",
+            "company_email": "alex@tbs-marketing.com",
+            "full_name": "Alex Lambie"
         },
         "alice": {
             "company_phone": "",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Daniel Parsons"
+            "company_email": "intuon@tbs-marketing.com",
+            "full_name": ""
         },
         "march": {
-            "company_phone": "0936535154",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Assawin Chittanandha (Mello)"
+            "company_phone": "",
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         "giftzy": {
             "company_phone": "",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Daniel Parsons"
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         "bill": {
-            "company_phone": "0936535154",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Assawin Chittanandha (Mello)"
+            "company_phone": "",
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         "ruj": {
             "company_phone": "",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Daniel Parsons"
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         "josh": {
-            "company_phone": "0936535154",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Assawin Chittanandha (Mello)"
+            "company_phone": "",
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         "noey": {
             "company_phone": "",
             "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Daniel Parsons"
+            "full_name": ""
         },
         "toddy": {
             "company_phone": "",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Daniel Parsons"
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         "golf": {
-            "company_phone": "0936535154",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Assawin Chittanandha (Mello)"
+            "company_phone": "",
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         "amber": {
             "company_phone": "",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Daniel Parsons"
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         "pemai": {
             "company_phone": "",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Daniel Parsons"
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         "nam": {
-            "company_phone": "0936535154",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Assawin Chittanandha (Mello)"
+            "company_phone": "",
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         "sai": {
             "company_phone": "",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Daniel Parsons"
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         "mello": {
             "company_phone": "0936535154",
-            "company_email": "daniel@tbs-marketing.com",
+            "company_email": "mello@tbs-marketing.com",
             "full_name": "Assawin Chittanandha (Mello)"
         },
         "pun": {
-            "company_phone": "0936535154",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": "Assawin Chittanandha (Mello)"
+            "company_phone": "",
+            "company_email": "@tbs-marketing.com",
+            "full_name": ""
         },
         
     };
