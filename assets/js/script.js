@@ -735,3 +735,108 @@ function getServiceDetails(service) {
     };    
     return serviceDetails[service] || { items: [], quantities: [], prices: [] };
 }
+
+// Event listener for team dropdown
+document.getElementById('team_dropdown').addEventListener('change', function () {
+    const selectedTeamMember = this.value;
+    const teamMembers = {
+        "daniel": {
+            "company_phone": "",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Daniel Parsons"
+        },
+        "alex": {
+            "company_phone": "0936535154",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Assawin Chittanandha (Mello)"
+        },
+        "alice": {
+            "company_phone": "",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Daniel Parsons"
+        },
+        "march": {
+            "company_phone": "0936535154",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Assawin Chittanandha (Mello)"
+        },
+        "giftzy": {
+            "company_phone": "",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Daniel Parsons"
+        },
+        "bill": {
+            "company_phone": "0936535154",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Assawin Chittanandha (Mello)"
+        },
+        "ruj": {
+            "company_phone": "",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Daniel Parsons"
+        },
+        "josh": {
+            "company_phone": "0936535154",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Assawin Chittanandha (Mello)"
+        },
+        "noey": {
+            "company_phone": "",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Daniel Parsons"
+        },
+        "toddy": {
+            "company_phone": "",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Daniel Parsons"
+        },
+        "golf": {
+            "company_phone": "0936535154",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Assawin Chittanandha (Mello)"
+        },
+        "amber": {
+            "company_phone": "",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Daniel Parsons"
+        },
+        "pemai": {
+            "company_phone": "",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Daniel Parsons"
+        },
+        "nam": {
+            "company_phone": "0936535154",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Assawin Chittanandha (Mello)"
+        },
+        "sai": {
+            "company_phone": "",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Daniel Parsons"
+        },
+        "mello": {
+            "company_phone": "0936535154",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Assawin Chittanandha (Mello)"
+        },
+        "pun": {
+            "company_phone": "0936535154",
+            "company_email": "daniel@tbs-marketing.com",
+            "full_name": "Assawin Chittanandha (Mello)"
+        },
+        
+    };
+
+    // Update fields based on selected team member
+    if (teamMembers[selectedTeamMember]) {
+        document.getElementById('company_phone').value = teamMembers[selectedTeamMember].company_phone;
+        document.getElementById('company_email').value = teamMembers[selectedTeamMember].company_email;
+        document.getElementById('full_name').value = teamMembers[selectedTeamMember].full_name;
+    } else {
+        // Clear fields if no team member is selected
+        document.getElementById('company_phone').value = "";
+        document.getElementById('company_email').value = "";
+        document.getElementById('full_name').value = "";
+    }
+});

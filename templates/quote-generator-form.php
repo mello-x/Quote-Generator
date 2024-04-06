@@ -32,6 +32,7 @@ $current_year = date("Y");
         </div>
     </div>
 
+
     <!-- Logo section -->
     <h3>General Information</h3>
     <div class="row">
@@ -55,7 +56,45 @@ $current_year = date("Y");
     <div class="form-group">
         <label for="project_desc" class="sr-only">Quote/Project Description:</label>
         <textarea name="project_desc" id="project_desc" class="form-control" rows="5" placeholder="Enter Quote/Project Description"></textarea>
-        <span style="font-size: 14px;">‣ Copy Paste ( • ‣ ○ ) for bullet points.</span>
+        <span style="font-size: 14px;">‣ Copy Paste ( • ○ ) for bullet points.</span>
+    </div>
+
+    <!-- Team Member  -->
+    <div class="row">
+        <div class="col-md-6">
+        </div>
+        <div class="col-md-4">
+            <select id="team_dropdown" class="form-select" style="margin-bottom:20px;">
+                <option value="" selected>Select your Name to Autofill Information</option>
+                <optgroup label="Management">
+                    <option value="daniel">Daniel</option>
+                    <option value="alex">Alex</option>
+                </optgroup>
+                <optgroup label="Sales Team">
+                    <option value="alice">Alice</option>
+                    <option value="march">March</option>
+                    <option value="giftzy">Giftzy</option>
+                </optgroup>
+                <optgroup label="SEO Team">
+                    <option value="bill">Bill</option>
+                    <option value="ruj">Ruj</option>
+                    <option value="josh">Josh</option>
+                    <option value="noey">Noey</option>
+                    <option value="tod">Toddy</option>
+                </optgroup>
+                <optgroup label="SEM Team">
+                    <option value="golf">Golf</option>
+                    <option value="amber">Amber</option>
+                    <option value="pemai">Pemai</option>
+                </optgroup>
+                <optgroup label="Dev Team">
+                    <option value="nam">Nam</option>
+                    <option value="sai">Sai</option>
+                    <option value="mello">Mello</option>
+                    <option value="pun">Pun</option>
+                </optgroup>
+            </select>
+        </div>
     </div>
 
     <!-- Company Information and Quotation To side by side -->
@@ -92,7 +131,7 @@ $current_year = date("Y");
             </div>
             <div class="form-group">
                 <label class="sr-only" for="full_name">Your Full Name:</label>
-                <input type="text" name="full_name" placeholder="Enter Full name" class="form-control">
+                <input type="text" id="full_name" name="full_name" placeholder="Enter Full name" class="form-control">
             </div>
             <div class="form-group">
                 <label class="sr-only" for="company_address">Address:</label>
@@ -100,11 +139,11 @@ $current_year = date("Y");
             </div>
             <div class="form-group">
                 <label class="sr-only" for="company_email">Email:</label>
-                <input type="email" name="company_email" placeholder="Enter your company email" class="form-control">
+                <input type="email" id="company_email" name="company_email" placeholder="Enter your company email" class="form-control">
             </div>
             <div class="form-group">
                 <label class="sr-only" for="company_phone">Phone:</label>
-                <input type="tel" name="company_phone" placeholder="Enter your company mobile" class="form-control">
+                <input type="tel" id="company_phone" name="company_phone" placeholder="Enter your company mobile" class="form-control">
             </div>
         </div>
     </div>
@@ -188,7 +227,7 @@ $current_year = date("Y");
         <div class="col-md-6">
             <label for="remark" class="sr-only">Remark:</label>
             <textarea name="remark" id="remark" class="form-control" rows="10" placeholder="Enter any remarks here"></textarea>
-            <span style="font-size: 14px;">‣ Copy Paste ( • ‣ ○ ) for bullet points.</span>
+            <span style="font-size: 14px;">‣ Copy Paste ( • ○ ) for bullet points.</span>
         </div>
         <!-- Prices -->
         <div class="col-md-6">
