@@ -177,7 +177,7 @@
         <hr>
         <div class="content-below">
             <h3>Thank you for your business!</h3>
-            <p>Should you have any enquiries concerning this quote, please contact <?php echo $full_name ?> at <?php echo $company_phone ?></p>
+            <p>Should you have any enquiries concerning this quote, please contact <?php echo $full_name ?> at <?php echo !empty($company_phone) ? $company_phone : $company_email ?></p>
             <p>1023, 4th Floor TPS Building Pattanakarn Road, Suanluang, Bangkok, Thailand, 10250</p>
             <p>Tel: 02-007-5800 | Email: <?php echo $company_email; ?> | Website: www.tbs-marketing.com</p>
         </div>

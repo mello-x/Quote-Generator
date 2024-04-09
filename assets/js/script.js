@@ -757,18 +757,18 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
         },
         "march": {
             "company_phone": "0899668111",
-            "company_email": "@tbs-marketing.com",
+            "company_email": "narong@tbs-marketing.com",
             "full_name": "Narong Khunprom (March)"
         },
         "giftzy": {
             "company_phone": "0983902996",
-            "company_email": "@tbs-marketing.com",
+            "company_email": "khanjana@tbs-marketing.com",
             "full_name": "Phunphat Kanchanakanho (Gift)"
         },
         "bill": {
-            "company_phone": "",
-            "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "company_phone": "0968298263",
+            "company_email": "jullapong@tbs-marketing.com",
+            "full_name": "Jullapong Oobbenjasub (Bill)"
         },
         "ruj": {
             "company_phone": "0613918124",
@@ -778,7 +778,7 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
         "josh": {
             "company_phone": "",
             "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "full_name": "Josh Pongpanot"
         },
         "noey": {
             "company_phone": "0959598607",
@@ -796,9 +796,9 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
             "full_name": "Chonpipat Techarukpong (Winner)"
         },
         "golf": {
-            "company_phone": "",
-            "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "company_phone": "0610180455",
+            "company_email": "chanan@tbs-marketing.com",
+            "full_name": "Golf"
         },
         "amber": {
             "company_phone": "0659799045",
