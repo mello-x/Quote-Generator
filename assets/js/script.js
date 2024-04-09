@@ -741,7 +741,7 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
     const selectedTeamMember = this.value;
     const teamMembers = {
         "daniel": {
-            "company_phone": "",
+            "company_phone": "0962356594",
             "company_email": "daniel@tbs-marketing.com",
             "full_name": "Daniel Parsons"
         },
@@ -751,19 +751,19 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
             "full_name": "Alex Lambie"
         },
         "alice": {
-            "company_phone": "",
+            "company_phone": "0613843372",
             "company_email": "intuon@tbs-marketing.com",
-            "full_name": ""
+            "full_name": "Intu-on Suphannarat (Alice)"
         },
         "march": {
-            "company_phone": "",
+            "company_phone": "0899668111",
             "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "full_name": "Narong Khunprom (March)"
         },
         "giftzy": {
-            "company_phone": "",
+            "company_phone": "0983902996",
             "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "full_name": "Phunphat Kanchanakanho (Gift)"
         },
         "bill": {
             "company_phone": "",
@@ -771,9 +771,9 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
             "full_name": ""
         },
         "ruj": {
-            "company_phone": "",
-            "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "company_phone": "0613918124",
+            "company_email": "julian@tbs-marketing.com",
+            "full_name": "Rapeeroj Pokpa (Ruj)"
         },
         "josh": {
             "company_phone": "",
@@ -781,9 +781,9 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
             "full_name": ""
         },
         "noey": {
-            "company_phone": "",
-            "company_email": "daniel@tbs-marketing.com",
-            "full_name": ""
+            "company_phone": "0959598607",
+            "company_email": "thanchanok@tbs-marketing.com",
+            "full_name": "Thanchanok Chullao (Noey)"
         },
         "toddy": {
             "company_phone": "",
@@ -792,8 +792,8 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
         },
         "winner": {
             "company_phone": "",
-            "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "company_email": "vincent@tbs-marketing.com",
+            "full_name": "Chonpipat Techarukpong (Winner)"
         },
         "golf": {
             "company_phone": "",
@@ -801,24 +801,24 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
             "full_name": ""
         },
         "amber": {
-            "company_phone": "",
-            "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "company_phone": "0659799045",
+            "company_email": "aunaun@tbs-marketing.com",
+            "full_name": "Aunaun Lai (Amber)"
         },
         "pemai": {
             "company_phone": "",
-            "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "company_email": "pemai.tbs@gmail.com",
+            "full_name": "Pawanrat Thepabut (Pemai)"
         },
         "nam": {
-            "company_phone": "",
-            "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "company_phone": "0625630699",
+            "company_email": "kochakorn@tbs-marketing.com",
+            "full_name": "Kochakorn Keitiwattanapong (Nam)"
         },
         "sai": {
             "company_phone": "",
-            "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "company_email": "punyanuch@tbs-marketing.com",
+            "full_name": "Punyanuch Fongcharoen"
         },
         "mello": {
             "company_phone": "0936535154",
@@ -826,9 +826,9 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
             "full_name": "Assawin Chittanandha (Mello)"
         },
         "pun": {
-            "company_phone": "",
-            "company_email": "@tbs-marketing.com",
-            "full_name": ""
+            "company_phone": "0813506722",
+            "company_email": "nattapat.tbs@gmail.com",
+            "full_name": "Nattapat Wattana"
         },
         
     };
