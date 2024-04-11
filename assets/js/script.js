@@ -776,19 +776,14 @@ document.getElementById('team_dropdown').addEventListener('change', function () 
             "full_name": "Rapeeroj Pokpa (Ruj)"
         },
         "josh": {
-            "company_phone": "",
-            "company_email": "@tbs-marketing.com",
+            "company_phone": "0629414269",
+            "company_email": "pongpanot@tbs-marketing.com",
             "full_name": "Josh Pongpanot"
         },
         "noey": {
             "company_phone": "0959598607",
             "company_email": "thanchanok@tbs-marketing.com",
             "full_name": "Thanchanok Chullao (Noey)"
-        },
-        "toddy": {
-            "company_phone": "",
-            "company_email": "@tbs-marketing.com",
-            "full_name": ""
         },
         "winner": {
             "company_phone": "",

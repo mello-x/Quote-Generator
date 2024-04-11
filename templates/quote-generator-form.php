@@ -80,7 +80,6 @@ $current_year = date("Y");
                     <option value="ruj">Ruj</option>
                     <option value="josh">Josh</option>
                     <option value="noey">Noey</option>
-                    <option value="toddy">Toddy</option>
                     <option value="winner">Winner</option>
                 </optgroup>
                 <optgroup label="SEM Team">
