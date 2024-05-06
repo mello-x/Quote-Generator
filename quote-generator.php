@@ -83,27 +83,22 @@ function process_quote_form() {
             );
         }
 
-        // Calculate VAT amount
+       // Calculate VAT amount
         $vat_amount = ($total_amount * $vat_percentage) / 100;
 
         $discount_sub_total = 0; // Initialize discount subtotal
 
-        // Calculate Discount 
         if ($discount_type === 'percentage') {
-            // Calculate discount based on percentage
-            $discount_sub_total = $total_amount * (($discount / 100));
-        } else {
-            // Calculate discount as fixed amount
-            $discount_sub_total = $total_amount - $discount;
+            $discount_sub_total = $total_amount * ($discount / 100);
+        } else if ($discount_type === 'fixed') {
+            // Ensure fixed discount does not exceed total amount
+            $discount_sub_total = min($discount, $total_amount);
         }
         
-        // Ensure discount subtotal is non-negative
-        $discount_sub_total = max($discount_sub_total, 0);
-
-        // Calculate total amount with VAT
-        $total_amount_with_vat = $discount_sub_total + $vat_amount;
-
+        // Calculate total amount with VAT and discount applied
         $total_amount_with_vat_discount = ($total_amount + $vat_amount) - $discount_sub_total;
+        
+
     }
    
     switch ($selected_currency) {
